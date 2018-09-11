@@ -1,0 +1,100 @@
+* {
+	font-family: verdana;
+}
+
+button.clear {
+	margin-bottom: 15px;
+}
+
+.wrap {
+	min-width: 640px;
+}
+
+.storehouse > .caption {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.storehouse .product {
+	cursor: pointer;
+}
+
+.storehouse .product.zero {
+	cursor: default !important;
+}
+
+.storehouse .goods {
+	padding-bottom: 20px;
+}
+
+.controlWrapper {
+	padding: 5px 5px 15px 5px;
+}
+
+.controlWrapper select.shop-selector {
+	float: left;
+	margin-right: 10px;
+}
+
+.shop .caption button {
+	float:right;
+}
+
+.shop.green {
+	background: #cfc !important;
+}
+
+.cb {
+	clear:both;
+}
+
+.fl {
+	float:left;
+}
+
+.product {
+	float:left;
+}
+
+.product .caption {
+	width: 130px;
+}
+
+.product .count {
+	width: 60px;
+}
+
+.product .caption,
+.product .count {
+	padding: 5px;
+}
+
+.product.zero {
+	background: #faa !important;
+}
+
+.product.zero:nth-child(odd) {
+	background: #fcc !important;
+}
+
+.product:nth-child(odd) {
+	background: #ddd;
+}
+
+.shop {
+	float:left;
+	width: 210px;
+}
+
+.shop {
+	border-top: 1px solid black;	
+	border-bottom: 1px solid black;	
+	border-right: 1px solid black;	
+	border-left: 1px solid black;	
+	margin-bottom: 10px;
+}
+
+.shop > .caption {
+	padding: 5px;
+	border-bottom: 1px solid black;	
+}
