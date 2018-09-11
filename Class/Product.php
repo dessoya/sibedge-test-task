@@ -188,6 +188,7 @@ class Product implements JsonSerializable {
 			$this->count = 0;
 		}
 		$this->count += $amount;
+		unset($this->zeroTime);
 
 		return $this->count;
 	}
